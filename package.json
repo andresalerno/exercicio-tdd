@@ -1,0 +1,21 @@
+{
+  "name": "qualidade-testes-tdd",
+  "version": "1.0.0",
+  "description": "Exercícios de Qualidade e Testes de Software com TypeScript, Jest e TDD",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:ex1": "jest tests/exercicio1 --coverage --collectCoverageFrom=\"src/exercicio1/**/*.ts\"",
+    "test:ex2": "jest tests/exercicio2 --coverage --collectCoverageFrom=\"src/exercicio2/**/*.ts\"",
+    "test:ex3": "jest tests/exercicio3 --coverage --collectCoverageFrom=\"src/exercicio3/**/*.ts\""
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.5.2",
+    "ts-jest": "^29.4.15",
+    "typescript": "^5.9.3"
+  }
+}

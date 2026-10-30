@@ -1,0 +1,6 @@
+export enum Cargo {
+  DESENVOLVEDOR = 'DESENVOLVEDOR',
+  DBA = 'DBA',
+  TESTADOR = 'TESTADOR',
+  GERENTE = 'GERENTE',
+}
